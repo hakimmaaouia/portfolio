@@ -2,5 +2,12 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
+@font-face {
+  font-family: "Roboto-Black";
+  src: local("Roboto-Black"),
+    url("./Font/Roboto-Thin.ttf") format("truetype");
+  font-weight: normal;
+}
