@@ -1,0 +1,13 @@
+.cursor{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: var(--purple);
+    display:block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    mix-blend-mode: difference;
+    z-index: 999999999;
+    
+}

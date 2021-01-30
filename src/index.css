@@ -11,3 +11,14 @@ body {
     url("./Font/Roboto-Thin.ttf") format("truetype");
   font-weight: normal;
 }
+
+
+:root {
+  --purple:#8E43D9;
+  --white:#fff
+}
+
+* {
+  cursor: none;
+}
+  

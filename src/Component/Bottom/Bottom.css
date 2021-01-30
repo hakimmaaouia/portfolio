@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+}
+.Bottom_container {
+  display: inline-block;
+  border-radius: 25px;
+  border: 2px solid var(--purple);
+  color: var(--purple);
+  padding: 8px 25px;
+  transition: 0.8s;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+}
+.Bottom_container:hover {
+  background: var(--purple);
+  color: var(--white);
+}
