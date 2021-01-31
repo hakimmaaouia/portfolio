@@ -7,7 +7,7 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    mix-blend-mode: difference;
-    z-index: 999999999;
+    mix-blend-mode: color-burn;
+    z-index: 9999;
     
 }

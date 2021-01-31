@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: stretch;
+  list-style-type: none;
+}
+ul{
+margin: 30px;
+}
+li {
+  display: inline;
+  margin: 30px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition:0.3s ease ;
+}
+li:hover{
+    border-bottom: 6px solid var(--purple);
+
+}
+li:last-child:hover {
+    border-bottom: 0px solid var(--purple);
+  }
+.logo {
+    position:absolute;
+  height: 80px;
+  width: 73px;
+  left:0px;
+}

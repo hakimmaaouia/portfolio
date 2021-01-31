@@ -1,14 +1,12 @@
 import React from "react";
 import "./App.css";
-import Bottom from "./Component/Bottom/Bottom";
-import Cursor from "./Cursor/Cursor"
+import Layout from "./Component/Layout/Layout";
 function App() {
   return (
     <div className="App">
-      <Cursor>
-      <Bottom>TEST</Bottom>
-      <Bottom>TEST</Bottom>
-    </Cursor>
+     <Layout>
+       zazr
+       </Layout>
     </div>
   );
 }
