@@ -1,0 +1,25 @@
+.CardContainer{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+	border-bottom:5px solid #000;
+	line-height: 50PX;
+}
+
+
+
+.testCart{
+	text-align: center;
+}
+
+.titleCard{
+	font-size: 18PX;
+font-weight: 600;
+color:var(--purple)
+}
+.margenBottom{
+	margin-bottom: 60px;
+}
