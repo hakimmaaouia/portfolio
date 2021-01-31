@@ -1,1 +1,18 @@
-re
+.descriptionContainer{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    background:var(--purple);
+    padding:10% 30%;
+}
+
+.titledescription{
+    color: var(--white);
+}
+.titledescription{
+    color:var(--white) ;
+    text-align: center;
+}
