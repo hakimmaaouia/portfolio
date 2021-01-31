@@ -1,0 +1,15 @@
+.herocontainer{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    margin: 0px 20% ;
+}
+
+
+.heroimg{
+width: 100%;
+margin-top: 100px;
+}
