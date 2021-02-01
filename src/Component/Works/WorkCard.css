@@ -1,0 +1,16 @@
+.WorkCard{
+    width:100%;
+}
+
+
+.wordDesc{
+    background: red;
+
+}
+
+.overlay{
+    background: #123;
+}
+.overlay:hover{
+
+}
