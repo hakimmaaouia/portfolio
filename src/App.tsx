@@ -5,12 +5,12 @@ import Router from "./Router/Router"
 import Herobody from "./Component/Hero-body/Herobody"
 import Description from "./Component/Description/Description"
 import Skills from "./Component/skills/Skills"
-
+import Work from "./Component/Works/Work"
 function App() {
   return (
     <div className="App">
      <Layout>
-     <Skills/>
+   <Work/>
        </Layout>
     </div>
   );
