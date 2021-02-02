@@ -6,11 +6,12 @@ import Herobody from "./Component/Hero-body/Herobody"
 import Description from "./Component/Description/Description"
 import Skills from "./Component/skills/Skills"
 import Work from "./Component/Works/Work"
+import Callout from "./Component/Callout/Callout"
 function App() {
   return (
     <div className="App">
      <Layout>
-   <Work/>
+   <Callout/>
        </Layout>
     </div>
   );

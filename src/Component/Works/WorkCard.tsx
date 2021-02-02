@@ -4,16 +4,12 @@ import "./WorkCard.css"
 const WorkCard=()=>{
 
     return(
-        <div className="WorkCard">
-         <div className="overlay">
-             test
-         <div className="wordDesc">
-                 test2
-                 </div>
-         
-             </div> 
-
+        <div className="container">
+        <img src="https://unsplash.it/400/400" alt=""></img>
+        <div className="overlay">
+          <span>Hello.</span>
         </div>
+      </div>
     )
 }
 

@@ -1,10 +1,10 @@
 .workContainer{
-    display: flex;
+	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
-	align-content: stretch;
+	align-content: center;
 }
 
 .project-grid{
@@ -13,3 +13,23 @@
 	grid-template-columns: auto auto auto;
 	width: 100%;
 }
+
+
+
+@media screen and (max-width: 1000px) {
+	.project-grid{
+		display: grid;
+		grid-gap: 50px;
+		grid-template-columns:auto auto;
+		width: 100%;
+	}
+  }
+
+@media screen and (max-width: 750px) {
+	.project-grid{
+		display: grid;
+		grid-gap: 50px;
+		grid-template-columns:auto;
+		width: 100%;
+	}
+  }
