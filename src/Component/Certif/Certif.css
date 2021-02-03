@@ -1,0 +1,15 @@
+.CertifContainer{
+    display: grid;
+    grid-gap: 50px 50px;
+    grid-template-columns: auto auto auto;
+    padding:10%;
+    }
+ 
+    @media screen and (max-width: 750px) {
+        .CertifContainer{
+            display: grid;
+            grid-gap: 50px 50px;
+            grid-template-columns: auto;
+            padding:2%;
+            }
+      }

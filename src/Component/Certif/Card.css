@@ -1,0 +1,26 @@
+.CardCertif {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  border: 2px solid var(--grey);
+  border-radius: 10px;
+  height: 250px;
+  width: 80%;
+  padding: 20px;
+}
+.imgcertif {
+  width: 80%;
+  height: 40%;
+}
+.testcertif {
+  text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  .CardCertif {
+    width: 100%;
+  }
+}
