@@ -8,11 +8,12 @@ import Skills from "./Component/skills/Skills";
 import Work from "./Component/Works/Work";
 import Callout from "./Component/Callout/Callout";
 import Certif from "./Component/Certif/Certif";
+import Contact from "./Component/Contact/Contact"
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Certif />
+      <Contact/>
       </Layout>
     </div>
   );
