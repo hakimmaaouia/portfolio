@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Bottom from "../Bottom/Bottom"
+import Bottom from "../Bottom/Bottom";
 import "./Contact.css";
 const Contact = () => {
   const [Name, setName] = useState("");
@@ -43,8 +43,9 @@ const Contact = () => {
           ></textarea>
         </div>
       </div>
-      <Bottom>Send Email</Bottom>
-      <button onClick={() => sendEmail()}> Send Email </button>
+      <div className="fontsize">
+      <Bottom onClick={() => sendEmail()}>Send Email</Bottom>
+      </div>
     </div>
   );
 };

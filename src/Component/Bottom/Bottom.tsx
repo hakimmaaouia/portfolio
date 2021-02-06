@@ -1,11 +1,9 @@
 import react from "react";
 import "./Bottom.css";
 
-const Bottom = (props: any) => {
+const Bottom = ({onClick,children}:any) => {
   return (
-    <div className="btn">
-      <div className="Bottom_container">{props.children}</div>
-    </div>
+      <div className="Bottom_container"onClick={onClick}>{children}</div>
   );
 };
 export default Bottom;

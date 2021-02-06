@@ -6,6 +6,7 @@
   align-items: center;
   align-content: center;
   width:100%;
+  
 }
 
 .form {
@@ -41,4 +42,12 @@ textarea {
   box-sizing: border-box;
   height: 200px;
   resize: vertical;
+}
+
+
+.fontsize{
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
