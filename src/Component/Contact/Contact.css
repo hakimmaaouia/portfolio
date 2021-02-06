@@ -1,0 +1,44 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width:100%;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  width:70%;
+}
+.inputtest {
+  grid-column: 1/3;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid var(--purple);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.titleContainer {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid var(--purple);
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 200px;
+  resize: vertical;
+}
