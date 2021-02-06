@@ -5,6 +5,7 @@
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;
+	padding: 10%;
 }
 
 .project-grid{
@@ -31,5 +32,8 @@
 		grid-gap: 50px;
 		grid-template-columns:auto;
 		width: 100%;
+	}
+	.workContainer{
+		padding: 7%;
 	}
   }

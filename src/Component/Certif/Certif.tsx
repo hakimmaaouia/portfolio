@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const Certif = () => {
   return (
-    <div className="centrecertif">
+  
       <div className="CertifContainer">
         <Card />
         <Card />
@@ -13,7 +13,7 @@ const Certif = () => {
         <Card />
         <Card />
       </div>
-    </div>
+    
   );
 };
 export default Certif;

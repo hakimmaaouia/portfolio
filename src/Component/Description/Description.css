@@ -16,3 +16,12 @@
     color:var(--white) ;
     text-align: center;
 }
+
+
+@media screen and (max-width: 750px) {
+    .descriptionContainer{
+        padding:20% 7%;
+    }
+    
+  }
+  

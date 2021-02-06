@@ -5,4 +5,13 @@
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
+	text-align: center;
 }
+
+
+@media screen and (max-width: 750px) {
+	.calloutContainer{
+	padding: 7%;
+	}
+  }
+  

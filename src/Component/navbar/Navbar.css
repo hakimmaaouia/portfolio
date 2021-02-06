@@ -7,8 +7,8 @@
   align-content: stretch;
   list-style-type: none;
 }
-ul{
-margin: 30px;
+ul {
+  margin: 30px;
 }
 li {
   display: inline;
@@ -19,18 +19,36 @@ li {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  transition:0.3s ease ;
+  transition: 0.3s ease;
 }
-li:hover{
-    border-bottom: 6px solid var(--purple);
-
+li:hover {
+  border-bottom: 6px solid var(--purple);
 }
 li:last-child:hover {
-    border-bottom: 0px solid var(--purple);
-  }
+  border-bottom: 0px solid var(--purple);
+}
 .logo {
-    position:absolute;
+  position: absolute;
   height: 80px;
-  width: 73px;
-  left:0px;
+  width: 80px;
+  left: 0px;
+}
+
+@media screen and (max-width: 750px) {
+  ul {
+    display: none;
+  }
+
+  .logo {
+    position: relative;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
 }

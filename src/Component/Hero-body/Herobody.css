@@ -1,15 +1,21 @@
-.herocontainer{
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-    align-content: stretch;
-    margin: 0px 20% ;
+.herocontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  margin: 0px 20%;
+  text-align: center;
 }
 
+.heroimg {
+  width: 100%;
+  margin-top: 100px;
+}
 
-.heroimg{
-width: 100%;
-margin-top: 100px;
+@media screen and (max-width: 750px) {
+  .herocontainer {
+    margin: 0px 7%;
+  }
 }

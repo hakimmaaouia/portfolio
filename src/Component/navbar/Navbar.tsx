@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="nav">
-      <Link to="/">
-        <img src={logo} className="logo"></img>
+      <Link to="/" className="logo">
+        <img src={logo} ></img>
       </Link>
       <ul>
         <li>
