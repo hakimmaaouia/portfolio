@@ -1,6 +1,7 @@
 import React from "react";
 import Bottom from "../Bottom/Bottom";
 import logo_white from "../../Assets/logowhite.png";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -17,9 +18,11 @@ const Footer = () => {
           </p>
         </div>
         <div>
+          <Link to="Contact">
           <Bottom>
             <h3>Start a project</h3>
           </Bottom>
+          </Link>
         </div>
       </div>
 

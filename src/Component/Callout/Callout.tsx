@@ -1,7 +1,7 @@
 import React from "react";
 import "./Callout.css";
 import Bottom from "../Bottom/Bottom";
-
+import { Link } from "react-router-dom";
 const Callout = () => {
   return (
     <div className="calloutContainer">
@@ -10,7 +10,9 @@ const Callout = () => {
         I’m always open to discussing product design work or partnership
         opportunities.
       </p>
-      <Bottom>Start a conversation</Bottom>
+      <Link to="Contact">
+        <Bottom>Start a conversation</Bottom>
+      </Link>
     </div>
   );
 };
