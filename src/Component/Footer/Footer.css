@@ -17,12 +17,15 @@
   color: var(--white);
   border-radius: 30px;
   bottom: 00px;
+  margin-bottom:-7%;
+  z-index: 5;
 }
 .level-item {
   width: 300px;
 }
 
 .footer {
+  z-index: -5;
   color: #e6ecf8;
   width: 100%;
   background: var(--purple);
@@ -34,7 +37,7 @@
   align-content: stretch;
   height: 500px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .start_container {
     display: flex;
     flex-direction: column;
@@ -42,6 +45,7 @@
     justify-content: center;
     align-items: center;
     align-content: stretch;
+    margin-bottom:-30%;
   }
 }
 
@@ -51,3 +55,5 @@
   font-weight: 400;
   line-height: 30px;
 }
+
+

@@ -5,7 +5,13 @@
     border:2px solid var(--grey);
     border-radius:30px;
     padding:10%;
+    background:#fff;
     
+}
+
+.centreSkills{
+    width:80%;
+   margin: auto;
 }
 
 
