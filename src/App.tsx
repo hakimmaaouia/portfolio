@@ -1,14 +1,11 @@
-import React from "react";
-import "./App.css";
-
-import Router from "./Router/Routers";
+import React, { Suspense } from 'react';
+import Loading from "./Loading/Loading"
+const Router = React.lazy(() => import("./Router/Routers"));
 function App() {
   return (
-    <div className="App">
-     
-      <Router/>
-     
-    </div>
+    <Suspense fallback={<Loading/>}>
+      <Router />
+    </Suspense>
   );
 }
 
