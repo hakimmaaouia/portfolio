@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Main from "../Container/Main/Main";
-import ContactContainer from "../Container/Contact/ContactContainer";
-import Layout from "../Component/Layout/Layout";
+const Layout = React.lazy(() => import("../Component/Layout/Layout"));
+const Main = React.lazy(() => import("../Container/Main/Main"));
+const ContactContainer = React.lazy(() => import("../Container/Contact/ContactContainer"));
 const Routers = () => {
   return (
     <Router>

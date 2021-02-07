@@ -10,7 +10,7 @@ body {
   transform: translate(-50%, -50%);
 }
 .text {
-  color: #fbae17;
+  color: var(--purple);
   display: inline-block;
   margin-left: 5px;
 }
@@ -28,7 +28,7 @@ body {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #fbae17;
+  background-color: var(--purple);
   transform-origin: 50%;
   animation: bounce 500ms alternate infinite ease;
 }
