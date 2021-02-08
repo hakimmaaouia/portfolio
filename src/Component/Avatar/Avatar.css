@@ -1,3 +1,19 @@
 .AvatarContainer{
-    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    width: 90%;
+    margin:20px 0px;
+}
+
+.avatar{
+    width: 120px;
+    height: 120px;
+}
+.line{
+    width:50%;
+    border-top: 1px solid var(--grey);
 }

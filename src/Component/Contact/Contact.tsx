@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Bottom from "../Bottom/Bottom";
+import Avatar from "../Avatar/Avatar"
 import "./Contact.css";
 const Contact = () => {
   const [Name, setName] = useState("");
@@ -18,6 +19,8 @@ const Contact = () => {
       <h1 className="titleContainer">
         Thanks for taking the time to reach out. How can I help you today?
       </h1>
+
+      <Avatar/>
       <div className="form">
         <div>
           <label>Name:</label>
