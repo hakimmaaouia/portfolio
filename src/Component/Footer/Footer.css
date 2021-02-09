@@ -25,7 +25,6 @@
 }
 
 .footer {
-  z-index: -5;
   color: #e6ecf8;
   width: 100%;
   background: var(--purple);

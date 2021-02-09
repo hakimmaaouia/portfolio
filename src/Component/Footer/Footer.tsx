@@ -1,8 +1,15 @@
 import React from "react";
 import Bottom from "../Bottom/Bottom";
+import ButtomIcon from "../ButtomIcon/ButtomIcon";
+//icon
 import logo_white from "../../Assets/logowhite.png";
+import github from "../../Assets/Social media/github.svg"
+
+
 import { Link } from "react-router-dom";
 import "./Footer.css";
+
+
 const Footer = () => {
   return (
     <div className="footer_container">
@@ -19,9 +26,9 @@ const Footer = () => {
         </div>
         <div>
           <Link to="Contact">
-          <Bottom>
-            <h3>Start a project</h3>
-          </Bottom>
+            <Bottom>
+              <h3>Start a project</h3>
+            </Bottom>
           </Link>
         </div>
       </div>
@@ -29,6 +36,7 @@ const Footer = () => {
       <div className="footer">
         <img src={logo_white}></img>
         <div>Living, learning, & leveling up one day at a time.</div>
+        <ButtomIcon logo={github}/>
       </div>
     </div>
   );

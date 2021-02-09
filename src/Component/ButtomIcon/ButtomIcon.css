@@ -1,0 +1,23 @@
+.ButtomIconContainer {
+  border: 3px solid var(--grey);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 3px;
+  transition: 0.8s;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  background: var(--grey);
+  color: var(--purple);
+}
+
+.ButtomIconContainer:hover {
+  background: var(--purple);
+  border: 3px solid var(--purple);
+}
+
+
+.Social_media{
+    color: #fff;
+}
