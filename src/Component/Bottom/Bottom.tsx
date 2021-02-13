@@ -1,7 +1,5 @@
 import react from "react";
 import "./Bottom.css";
-const color = React.useContext("ThemeContext");
-
 
 const Bottom = ({ onClick, children }: any) => {
   return (
