@@ -1,13 +1,16 @@
-.cursor{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background: var(--purple);
-    display:block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    mix-blend-mode:difference;
-    z-index: 9999;
-    
+.cursor {
+  width: 40px;
+  height: 40px;
+  background: gold;
+  position: absolute;
+  z-index: 999999999;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  transition: transform 0.5s ease-in-out;
+}
+
+.active {
+  transform: scale(3.5);
 }

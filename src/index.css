@@ -2,24 +2,21 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @font-face {
   font-family: "Roboto-Black";
-  src: local("Roboto-Black"),
-    url("./Font/Roboto-Thin.ttf") format("truetype");
+  src: local("Roboto-Black"), url("./Font/Roboto-Thin.ttf") format("truetype");
   font-weight: normal;
 }
 
-
 :root {
-  --purple:#7510F7;
-  --white:#fff;
-  --grey:#E6ECF8;
+  --purple: #7510f7;
+  --white: #fff;
+  --grey: #e6ecf8;
 }
 
 * {
   cursor: none;
 }
-  
