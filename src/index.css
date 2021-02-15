@@ -12,11 +12,12 @@ body {
 }
 
 :root {
-  --purple: #7510f7;
+  --purple: #c110f7;
   --white: #fff;
   --grey: #e6ecf8;
 }
 
 * {
   cursor: none;
+ 
 }

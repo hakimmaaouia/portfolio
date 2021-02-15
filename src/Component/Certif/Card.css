@@ -8,7 +8,8 @@
   border: 2px solid var(--grey);
   border-radius: 10px;
   height: 250px;
-  width: 100%;
+  width: 98%;
+  padding: 2%;
 }
 .imgcertif {
   width: 80%;

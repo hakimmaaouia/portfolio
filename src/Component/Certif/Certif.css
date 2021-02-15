@@ -7,7 +7,7 @@
  
     @media screen and (max-width: 750px) {
         .CertifContainer{
-            display: block;
+            grid-template-columns: auto;
            padding: 7%;
             }
       }
