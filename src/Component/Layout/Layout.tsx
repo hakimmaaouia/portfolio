@@ -1,15 +1,17 @@
 import React from "react";
 import "./Layout.css";
-import Cursor from "../../Cursor/Cursor"
-import Navbar from "../navbar/Navbar"
-import Footer from "../Footer/Footer"
-const Layout = (props:any) => {
-  return (<div>
+import Cursor from "../../Cursor/Cursor";
+import Navbar from "../navbar/Navbar";
+import Footer from "../Footer/Footer";
+const Layout = (props: any) => {
+  return (
+    <div>
       <Cursor>
-      <Navbar/>
-     {props.children}
-      <Footer/>
+        <Navbar />
+        {props.children}
+        <Footer />
       </Cursor>
-  </div>);
+    </div>
+  );
 };
 export default Layout;
