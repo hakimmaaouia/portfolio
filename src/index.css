@@ -19,4 +19,5 @@ body {
 
 * {
   cursor: none;
+  scroll-behavior: smooth;
 }

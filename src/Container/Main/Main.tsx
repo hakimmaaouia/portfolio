@@ -11,10 +11,10 @@ const Main = () => {
     <>
         <Herobody />
 
-        <div style={{ zIndex: -50 }}>
+        <div>
           <Description />
         </div>
-        <div style={{ zIndex: 50, marginTop: "-100px" }}>
+        <div id="work">
           <Skills />
         </div>
 

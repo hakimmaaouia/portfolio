@@ -12,12 +12,11 @@ const Navbar = () => {
         <img src={logo}></img>
       </Link>
       <ul>
-        <li>
-          <Link to="/"> Home</Link>
-        </li>
-
         <li onMouseEnter={() => test(true)} onMouseLeave={() => test(false)}>
-          Projects
+          <Link to="/#work" style={{ textDecoration: 'none' }}> Home</Link>
+        </li>
+        <li onMouseEnter={() => test(true)} onMouseLeave={() => test(false)}>
+          <a href="#work" style={{ textDecoration: 'none' }}> Home</a>
         </li>
         <li onMouseEnter={() => test(true)} onMouseLeave={() => test(false)}>
           Articles

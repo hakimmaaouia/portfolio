@@ -20,6 +20,7 @@ li {
   text-align: left;
   transition: 0.3s ease;
   color: var(--purple);
+  text-decoration: none;
 }
 li:hover {
   border-bottom: 6px solid var(--purple);
