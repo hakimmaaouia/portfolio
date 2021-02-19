@@ -9,9 +9,6 @@ const Certif = () => {
         <Card />
         <Card />
         <Card />
-        <Card />
-        <Card />
-        <Card />
       </div>
     
   );

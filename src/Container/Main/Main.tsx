@@ -9,18 +9,12 @@ import Certif from "../../Component/Certif/Certif";
 const Main = () => {
   return (
     <>
-        <Herobody />
-
-        <div>
-          <Description />
-        </div>
-        <div id="work">
-          <Skills />
-        </div>
-
-        <Work />
-        <Callout />
-        <Certif />
+      <Herobody />
+      <Description />
+      <Skills />
+      <Work />
+      <Callout />
+      <Certif />
     </>
   );
 };
