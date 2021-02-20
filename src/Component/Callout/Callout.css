@@ -6,6 +6,11 @@
 	align-items: center;
 	align-content: stretch;
 	text-align: center;
+	background-image:url(../../Assets/wave.svg);
+	background-size: contain;
+    padding: 20px 0px ;
+	color: var(--white);
+
 }
 
 
